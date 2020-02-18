@@ -18,5 +18,22 @@ describe("FizzBuzz", function() {
 
   })
 
+  it ("should return Fizz when number is 6", function(){
+
+    expect(FizzBuzz(6)).toBe('Fizz')
+
+  })
+
+  it ("should return Fizz when number is 10", function(){
+
+    expect(FizzBuzz(10)).toBe('Buzz')
+
+  })
+
+  it ("should return FizzBuzz when number is divisible by 5 and 3 such as 15", function(){
+
+    expect(FizzBuzz(15)).toBe('FizzBuzz')
+
+  })
 
 });
